@@ -1,6 +1,6 @@
 // Code your solution in this file!
 function distanceInFeet(blocks) {
-  blocks * 264
+  return blocks * 264
 }
 function distanceFromHqInBlocks (someValue) {
   return Math.abs(42 - someValue)
