@@ -13,3 +13,10 @@ function distanceFromHqInFeet (someValue) {
 function distanceTravelledInFeet (origin, destination) {
   return distanceInFeet(Math.abs(origin - destination))
 }
+
+function calculatesFarePrice (origin, destination) {
+  distance = distanceTravelledInFeet(origin, destination)
+  if distance <= 400 {
+    return
+  }
+}
